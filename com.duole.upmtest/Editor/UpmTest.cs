@@ -1,0 +1,13 @@
+using System.Collections;
+using System.Collections.Generic;
+using UnityEditor;
+using UnityEngine;
+
+public class UpmTest : Editor
+{
+    [MenuItem("Tools/测试", false, 0)]
+    public static void UpdateLevelConfig()
+    {
+        Debug.Log("测试输出");
+    }
+}

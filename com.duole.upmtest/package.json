@@ -1,0 +1,12 @@
+{
+    "name": "com.duole.upmtest",
+    "displayName": "UpmTestPlugin",
+    "version": "1.0.0",
+    "unity": "2021.3",
+    "description": "none",
+    "keywords": [
+        "test",
+        "core"
+    ],
+    "dependencies": {}
+}
