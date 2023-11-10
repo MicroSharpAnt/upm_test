@@ -6,8 +6,14 @@ using UnityEngine;
 public class UpmTest : Editor
 {
     [MenuItem("Tools/测试", false, 0)]
-    public static void UpdateLevelConfig()
+    public static void Test1()
     {
-        Debug.Log("测试输出");
+        Debug.Log("测试输出1");
+    }
+
+    [MenuItem("Tools/测试2", false, 0)]
+    public static void Test2()
+    {
+        Debug.Log("测试输出2");
     }
 }
