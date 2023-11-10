@@ -22,4 +22,10 @@ public class UpmTest : Editor
     {
         Debug.Log("测试输出3");
     }
+
+    [MenuItem("Tools/测试4", false, 0)]
+    public static void Test4()
+    {
+        Debug.Log("测试输出4");
+    }
 }
