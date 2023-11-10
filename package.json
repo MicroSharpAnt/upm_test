@@ -9,6 +9,5 @@
         "core"
     ],
     "dependencies": {
-        "com.duole.upmtest": "https://github.com/MicroSharpAnt/upm_test.git#1.0.1"
     }
 }
