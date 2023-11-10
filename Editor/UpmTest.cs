@@ -30,6 +30,7 @@ public class UpmTest : Editor
         Debug.Log("测试输出4");
     }
 
+    // #tag 或 #branch 形式只支持https的链接，ssh的不行
     [MenuItem("Tools/Plugin测试1", false, 0)]
     public static void Plugin2Test1()
     {
