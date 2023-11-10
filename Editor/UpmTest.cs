@@ -23,6 +23,7 @@ public class UpmTest : Editor
         Debug.Log("测试输出3");
     }
 
+    // 测试证明，只有此分支有更新，点击update就会拉取代码，无需更改package.json
     [MenuItem("Tools/测试4", false, 0)]
     public static void Test4()
     {
