@@ -29,4 +29,10 @@ public class UpmTest : Editor
     {
         Debug.Log("测试输出4");
     }
+
+    [MenuItem("Tools/Plugin测试1", false, 0)]
+    public static void Plugin2Test1()
+    {
+        Debug.Log("这是插件分支的新增方法");
+    }
 }
